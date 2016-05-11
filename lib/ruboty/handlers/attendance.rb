@@ -1,6 +1,6 @@
 module Ruboty
   module Handlers
-    class Attend < Base
+    class Attendance < Base
       NAMESPACE = 'ruboty-attend'
       ROLE = { attend: 'Attend', absent: 'Absent' }
 
