@@ -72,7 +72,7 @@ module Ruboty
         end
       end
 
-      def dash_board(message)
+      def all_attendance(message)
         begin
           result_message = "All channel event is here\n"
           attend_ch.keys.each do |ch_num|
